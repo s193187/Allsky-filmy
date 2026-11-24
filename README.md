@@ -44,4 +44,4 @@ Filmy można odtworzyć w dowolnym odtwarzaczu obsługującym pliki MP4, np. VLC
 
 ## Autor
 
-*imię i nazwisko*, Politechnika Gdańska, 2026
+Dawid Gawiński 193187 Politechnika Gdańska, 2026
