@@ -35,7 +35,7 @@ Do montażu potrzebne są też klej do kopuły.
    Taśma ma długość kilkudziesięciu centymetrów, dlatego kamera i komputer są w jednej obudowie.
 2. Kopułę przykleić w górnej części obudowy nad obiektywem kamery.
 3. Na procesorze zamocować radiator z wentylatorami. Wentylatory podłączyć do pinów 5 V i GND złącza GPIO, pracują one ciągle.
-4. Przewód zasilający wprowadzić do obudowy przez dławik PG 9 i podłączyć do listwy zaciskowej.
+4. Przewód zasilający wprowadzić do obudowy przez dławik PG 11 i podłączyć do listwy zaciskowej.
    Z listwy zasilić przetwornicę 5 V (wyjście USB-C do Raspberry Pi) oraz regulator W1209.
 5. Do regulatora W1209 podłączyć czujnik termistorowy i dodatkowy wentylator.
    Na regulatorze ustawić temperaturę załączenia wentylatora.
