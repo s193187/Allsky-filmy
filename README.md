@@ -22,7 +22,7 @@ omówione w podrozdziale 7.5.1 pracy.
 | Moduł rozdzielczy z listwą zaciskową | rozprowadzenie napięcia 12 V w obudowie | 1 |
 | Obudowa hermetyczna BOPLA Euromas X-T | 149,9 × 149,9 × 60 mm, tworzywo sztuczne | 1 |
 | Przezroczysta kopuła akrylowa | osłona obiektywu | 1 |
-| Dławik kablowy PG 9 | szczelność IP68 | 1 |
+| Dławik kablowy PG 11 | szczelność IP68 | 1 |
 | Przewód H07RN-F 2 × 1,5 mm² | odporny na warunki atmosferyczne, 10 m | 1 |
 | Złącze DC 5,5 × 2,1 mm | rozłączne połączenie zasilacza z przewodem | 1 |
 | Zasilacz impulsowy | 230 V AC → 12 V DC, 5 A (60 W), wewnątrz budynku | 1 |
