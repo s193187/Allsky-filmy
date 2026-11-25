@@ -22,30 +22,30 @@ omówione w podrozdziale 7.5.1 pracy.
 | Moduł rozdzielczy z listwą zaciskową | rozprowadzenie napięcia 12 V w obudowie | 1 |
 | Obudowa hermetyczna BOPLA Euromas X-T | 149,9 × 149,9 × 60 mm, tworzywo sztuczne | 1 |
 | Przezroczysta kopuła akrylowa | osłona obiektywu | 1 |
-| Dławik kablowy M20 | szczelność IP68 | 1 |
+| Dławik kablowy PG 9 | szczelność IP68 | 1 |
 | Przewód H07RN-F 2 × 1,5 mm² | odporny na warunki atmosferyczne, 10 m | 1 |
 | Złącze DC 5,5 × 2,1 mm | rozłączne połączenie zasilacza z przewodem | 1 |
 | Zasilacz impulsowy | 230 V AC → 12 V DC, 5 A (60 W), wewnątrz budynku | 1 |
 
-Do montażu potrzebne są też klej do kopuły i uszczelniacz do otworów na śruby.
+Do montażu potrzebne są też klej do kopuły.
 
 ## Złożenie
 
 1. Przykręcić obiektyw do kamery i połączyć kamerę z Raspberry Pi taśmą CSI.
    Taśma ma długość kilkudziesięciu centymetrów, dlatego kamera i komputer są w jednej obudowie.
-2. Kopułę przykleić w górnej części obudowy nad obiektywem kamery. Otwory montażowe, przez które przechodzą śruby, uszczelnić.
+2. Kopułę przykleić w górnej części obudowy nad obiektywem kamery.
 3. Na procesorze zamocować radiator z wentylatorami. Wentylatory podłączyć do pinów 5 V i GND złącza GPIO, pracują one ciągle.
-4. Przewód zasilający wprowadzić do obudowy przez dławik M20 i podłączyć do listwy zaciskowej.
+4. Przewód zasilający wprowadzić do obudowy przez dławik PG 9 i podłączyć do listwy zaciskowej.
    Z listwy zasilić przetwornicę 5 V (wyjście USB-C do Raspberry Pi) oraz regulator W1209.
 5. Do regulatora W1209 podłączyć czujnik termistorowy i dodatkowy wentylator.
-   Na regulatorze ustawić temperaturę załączenia wentylatora i histerezę.
+   Na regulatorze ustawić temperaturę załączenia wentylatora.
 6. Drugi koniec przewodu podłączyć przez złącze DC do zasilacza 12 V w budynku.
    Przewodem doprowadza się 12 V, a nie 5 V, bo przy tej samej mocy płynie mniejszy prąd i mniejszy jest spadek napięcia na 10 m przewodu.
 
 ## Uruchomienie oprogramowania
 
 1. **System operacyjny.** Programem Raspberry Pi Imager wgrać na kartę **64-bitowy** Raspberry Pi OS
-   (na wersji 32-bitowej instalacja Allsky się nie kończyła). W Imagerze ustawić nazwę komputera,
+   (na wersji 32-bitowej instalacja Allsky się nie ukończyła). W Imagerze ustawić nazwę komputera,
    konto użytkownika i strefę czasową, np. Europe/Warsaw.
 2. **Sieć.** Połączyć komputer z siecią Wi-Fi i włączyć SSH. Żeby była widoczna sieć 5 GHz,
    trzeba ustawić kraj sieci bezprzewodowej: `sudo raspi-config` → Localisation Options → WLAN Country → PL.
